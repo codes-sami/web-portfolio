@@ -55,6 +55,21 @@ nav ul li a {
 
 }
 
+.section-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
 /* Header */
 .header {
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
@@ -94,4 +109,28 @@ nav ul li a {
 .description {
     color: #757575;
     font-size: 14px;
+}
+
+/* Main Styles */
+main{
+    max-width: 910px;
+    margin: 0 auto;
+}
+
+/* About */
+.about{
+ border-radius: 9px;
+ padding: 100px 110px;
+ text-align: center;
+ margin-top: 100px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-descrip{
+    font-weight: 600;
+   
 }
