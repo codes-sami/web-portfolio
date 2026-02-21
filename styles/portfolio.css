@@ -179,3 +179,50 @@ main section{
     font-weight: bold;
     color: #181818;
 }
+
+/* Resume Section */
+ .resume-title{
+    font-size: 31px;
+    font-weight: bold;
+ }
+
+ .resume-column-title{
+    font-size: 26px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 25px;
+ }
+
+ .item-title{
+    font-size: 21px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 3px;
+ }
+
+ .item-subtitle{
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 16px;
+    
+ }
+
+ .item-description{
+    font-size: 12px;
+  
+    color: #757575;
+ }
+
+ .resume-container{
+    display: flex;
+    gap: 21px;
+ }
+
+ .resume hr{
+    margin: 25px 0;
+ }
+
+ .CV{
+    margin-top: 44px;
+ }
